@@ -30,7 +30,7 @@ class ProductRepositoryIntegrationTest {
         Product saved = productRepository.save(product);
         assertThat(saved.getId()).isNotNull();
         assertThat(saved.getName()).isEqualTo("Laptop Lenovo");
-        assertThat(saved.getPrice()).isEqualTo(2500.00);
+        assertThat(saved.getPrice()).isEqualTo(99999.00);    
     }
 
     @Test
